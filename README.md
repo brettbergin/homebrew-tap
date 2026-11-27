@@ -8,7 +8,7 @@ brew install --cask brettbergin/tap/ghostgrid
 
 | Cask | App |
 | --- | --- |
-| `ghostgrid` | [ghostgrid](https://github.com/brettbergin/ghostgrid): a terminal that tiles shells in a grid, built on libghostty. Signed and notarized; Apple silicon, macOS 14+. |
+| `ghostgrid` | [ghostgrid](https://github.com/brettbergin/ghostgrid): a terminal that tiles shells in a grid, built on libghostty. Signed and notarized; Apple silicon, macOS 14+. Also puts `gg` (open a pane in a folder) on PATH. |
 
 Casks are updated from each app's release (ghostgrid: `make cask` after
 `make release`).

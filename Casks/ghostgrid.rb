@@ -16,6 +16,7 @@ cask "ghostgrid" do
   depends_on macos: :sonoma
 
   app "ghostgrid.app"
+  binary "#{appdir}/ghostgrid.app/Contents/Resources/bin/gg"
 
   zap trash: [
     "~/Library/Application Support/ghostgrid",
