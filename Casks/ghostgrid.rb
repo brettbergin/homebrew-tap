@@ -12,6 +12,7 @@ cask "ghostgrid" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
@@ -20,6 +21,8 @@ cask "ghostgrid" do
 
   zap trash: [
     "~/Library/Application Support/ghostgrid",
+    "~/Library/Caches/com.brettbergin.ghostgrid",
+    "~/Library/HTTPStorages/com.brettbergin.ghostgrid",
     "~/Library/Logs/ghostgrid",
     "~/Library/Preferences/com.brettbergin.ghostgrid.plist",
     "~/Library/Saved Application State/com.brettbergin.ghostgrid.savedState",
