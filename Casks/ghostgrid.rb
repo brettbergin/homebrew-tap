@@ -1,6 +1,6 @@
 cask "ghostgrid" do
-  version "0.1.1"
-  sha256 "56c6d9dd1c363f76dc6967f6e4c76a3c7193af283baec5ba85454566cb4c83e8"
+  version "0.2.0"
+  sha256 "c0e78a9f17ad069c4be707deb7725b994227df7bd5fd5bc653b9d7efdf18faea"
 
   url "https://github.com/brettbergin/ghostgrid/releases/download/v#{version}/ghostgrid-#{version}.dmg"
   name "ghostgrid"
